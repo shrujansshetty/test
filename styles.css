@@ -1,0 +1,27 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('illustration-lord-krishna-painting-4k-realistic_756405-21317.jpg');
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
